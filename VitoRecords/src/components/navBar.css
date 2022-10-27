@@ -1,0 +1,7 @@
+.links {
+    display: flex;
+    gap: 2px;
+    max-height: 40px;  
+    justify-content: space-between;
+
+}
