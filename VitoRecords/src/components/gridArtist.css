@@ -17,8 +17,13 @@
     justify-content: center;
 
   }
+
+  .artist_play {
+    transition: transform 0.5s;
+    
+  }
   .artist_play:hover {
-    transition-duration: 5s;
-    width: 112%;
+    transform: scale(103%);
+   
 
   }

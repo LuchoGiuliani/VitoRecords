@@ -5,3 +5,27 @@
     justify-content: space-between;
 
 }
+@media (max-width: 548px){
+    .links {
+        height: 25px;
+    }
+    .grid_trabajo {
+        display: flex;
+        flex-direction: column;
+       
+
+    }    
+    .grid_trabajo img {
+        max-width: 70%;
+  
+    }
+    
+    
+}
+@media (max-width: 768px) {
+    .vitoText {
+        display: none;
+    }
+    
+}
+

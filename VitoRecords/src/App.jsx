@@ -8,11 +8,13 @@ import NavBar from './components/NavBar'
 import Playlist from './components/Playlist'
 import Trabajo from './components/Trabajo'
 import GridArtist from './components/GridArtist'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 function App() {
  
 
   return (
-    <div className="App">
+    <div className="App bg-blend-color-burn">
      
        {/* navBar */}
        <NavBar />
@@ -25,8 +27,10 @@ function App() {
        <Playlist />  
 
        {/* Contact */}
+     
 
        {/* Footer */}
+       <Footer />
 
 
     </div>

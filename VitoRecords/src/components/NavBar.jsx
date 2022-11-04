@@ -1,19 +1,20 @@
 import React from 'react'
-
+import 'animate.css';
 export default function NavBar()  {
 
 
     return (
 <div className="video__back">
-  <img className=' max-h-[600px] w-full' src="/images/img_back.png" alt="" />
-    <div className='p-4 flex navbar_container justify-between absolute top-[1%] w-[100%] '>
+ {/*<h1 className='animate__animated animate__fadeInLeftBig animate__repeat-3 text-zinc-200 vitoText text-7xl md:absolute top-[40%] left-[30%]'>VITO RECORDS</h1>*/}
+  <img className=' md:h-screen w-full' src="/images/img_back.png" alt="" />
+    <div className='p-4 flex navbar_container justify-between absolute top-[1%] w-[100%]'>
       <div className='img_vito z-10'>
-      <img  className ="" src="/images/vitonavbar.png" alt="" />
+      <img  className ="animate__animated animate__heartBeat w-[80%]" src="/images/vitonavbar.png" alt="" />
       </div>
       <div className='flex z-10 gap-3 items-center '>
-      <img className='links insta' src="/images/insta.png" alt="" />
-      <img className='links email ' src="/images/mail.png" alt="" />
-      <img className='links wsp' src="/images/wasap.png" alt="" />
+      <a href="https://www.instagram.com/vitorecordsarg/?hl=es" Target="_blank"><img className='links insta hover:scale-110' src="/images/insta.png" alt="" /></a>
+      <img className='links email hover:scale-110 ' src="/images/mail.png" alt="" />
+      {/*<a href="https://api.whatsapp.com/send?phone=5491134572747&text=" target="_blank" class="whatsapp"> <img className='links wsp hover:scale-110' src="/images/wasap.png" alt="" /></a>*/ }
       </div>
       </div>
       </div>
