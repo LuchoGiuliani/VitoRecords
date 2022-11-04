@@ -3,7 +3,7 @@ import React from "react";
 export default function Playlist() {
   return (
     <div>
-      <h1 className=" p-5 text-2xl text-amber-600">. Playlist</h1>
+      <h1 className=" p-5 text-2xl text-amber-600 text-center"> Playlist</h1>
       <div className="playList_container flex justify-center">
         <iframe
           
