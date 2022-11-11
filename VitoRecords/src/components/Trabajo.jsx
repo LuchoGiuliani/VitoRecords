@@ -14,24 +14,22 @@ export default function Trabajo() {
         {text}
       </h1>
       <div className="grid_trabajo  mt-5  sm:p-5 grid grid-cols-3 gap-3 bg-gradient-to-r from-slate-300 via-slate-200 to-slate-100">
-        <div className="flex flex-col items-center p-5 sm:p-5 ">
-          <img src="/images/casette.png" alt="" />
-          <p className="font-medium	 text-center text-[15px]">
+        <div className=" rounded-md shadow-stone-400/40 flex flex-col items-center p-5 sm:p-5 ">
+          <img className="rounded-md shadow-stone-400/40" src="/images/mix.jpg" alt="" />
+          {/* <p className="font-medium	 text-center text-[15px]">
             ESTUDIO DE GRABACION BEATMAKING & VOCAL COACHING MIX & MASTER
+          </p> */}
+        </div>
+        <div className="flex flex-col items-center p-5 sm:p-5">
+          <img className="rounded-md shadow-stone-400/40" src="/images/vocal.jpg" alt="" />
+          <p className="font-medium	 text-center text-[15px]">
+           
           </p>
         </div>
         <div className="flex flex-col items-center p-5 sm:p-5">
-          <img src="/images/consola.png" alt="" />
+          <img className="rounded-md shadow-stone-400/40" src="/images/estudio.jpg" alt="" />
           <p className="font-medium	 text-center text-[15px]">
-            Composición de Música y Letra Original. Pre Producción, Grabación,
-            Mezcla y Mastering. Artistas, Cine, Tv y Radio.
-          </p>
-        </div>
-        <div className="flex flex-col items-center p-5 sm:p-5">
-          <img src="/images/mic.png" alt="" />
-          <p className="font-medium	 text-center text-[15px]">
-            Grabación de voces, asesoramiento en tecnicas vocales, coros,
-            ensamble en general
+          
           </p>
         </div>
       </div>

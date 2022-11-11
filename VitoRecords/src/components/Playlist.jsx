@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Playlist() {
   return (
-    <div>
+    <div id="playlist">
       <h1 className=" p-5 text-2xl text-amber-600 text-center"> Playlist</h1>
-      <div className="playList_container flex justify-center">
+      <div  className="playList_container flex justify-center">
         <iframe
           
           src="https://open.spotify.com/embed/playlist/1BmQSQqRCtNkPqw728Pqp0?utm_source=generator&theme=0"
