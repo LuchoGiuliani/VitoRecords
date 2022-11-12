@@ -6,6 +6,10 @@
 
 }
 @media (max-width: 548px){
+  .nav_right {
+    flex-direction: column;
+    width: 70px;
+  }
     .links {
         height: 25px;
     }
@@ -43,7 +47,7 @@
   }
   .btn-12 span {
     color: aliceblue;
-    background: rgb(52, 54, 54);
+    background:transparent;
   background: linear-gradient(0deg, rgb(52, 56, 58) 0%, rgrgb(69, 73, 78)00%);
     display: block;
     position: absolute;
@@ -62,6 +66,7 @@
     transition: all .3s;
   }
   .btn-12 span:nth-child(1) {
+    visibility: hidden;
     *box-shadow:
      -7px -7px 20px 0px #fff9,
      -4px -4px 5px 0px #fff9,
@@ -83,7 +88,8 @@
     transform-origin: 50% 50% -20px;
   }
   .btn-12:hover span:nth-child(1) {
-    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    visibility: visible;
+    *box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
      7px 7px 20px 0px rgba(0,0,0,.1),
      4px 4px 5px 0px rgba(0,0,0,.1);
     -webkit-transform: rotateX(0deg);
@@ -91,7 +97,7 @@
     transform: rotateX(0deg);
   }
   .btn-12:hover span:nth-child(2) {
-    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    *box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
      7px 7px 20px 0px rgba(0,0,0,.1),
      4px 4px 5px 0px rgba(0,0,0,.1);
    color: transparent;
@@ -102,7 +108,7 @@
   
 
 
-  /*-- Animación fuente main --*/
-
-
-
+  /*-- shadow trabajo --*/
+  .grid_trabajo img {
+   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); ;
+  }

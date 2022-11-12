@@ -14,7 +14,7 @@ export default function GridArtist() {
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
-      ></iframe>
+      ></iframe> 
       {/* <div className="grid_artist">
         <div className="leftSide">
         <div className="artist_play"><img src="images/img1.png" alt="" /></div>
@@ -28,5 +28,6 @@ export default function GridArtist() {
         </div>
       </div> */}
     </div>
+    
   );
 }
