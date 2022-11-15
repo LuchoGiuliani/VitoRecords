@@ -14,7 +14,7 @@ function App() {
  
 
   return (
-    <div className="App bg-blend-color-burn">
+    <div className="App ">
      
        {/* navBar */}
        <NavBar />

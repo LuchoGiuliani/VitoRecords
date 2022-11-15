@@ -11,7 +11,7 @@
     width: 70px;
   }
     .links {
-        height: 25px;
+        *height: 25px;
     }
     .grid_trabajo {
         display: flex;
@@ -114,5 +114,5 @@
   }
 
   #body_container {
-    background-color: black;
+    background-image:linear-gradient(rgb(15, 15, 15),black 75%, rgb(66, 58, 58));
   }
