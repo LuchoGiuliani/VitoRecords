@@ -10,7 +10,7 @@ export default function Trabajo() {
   })
   return (
     <div  className="">
-      <h1 className="text-center p-5 text-2xl text-neutral-400 h-10  ">
+      <h1 className="text-center p-5 text-2xl text-orange-400 h-10  ">
         {text}
       </h1>
       <div  className="  grid_trabajo  mt-5  sm:p-5 grid grid-cols-3 gap-3 bg-gradient-to-r from-slate-300 via-slate-200 to-slate-100">
